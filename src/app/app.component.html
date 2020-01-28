@@ -1,0 +1,119 @@
+
+<div class="container">
+<mat-toolbar class="tool_bar" color="primary">
+  <mat-toolbar-row>
+    <span>
+      <!--For modern browsers-->
+<i class="material-icons">
+    where_to_vote
+    </i>
+    <!-- This fills the remaining space of the current row -->
+    <span class="example-fill-remaining-space"></span>
+    <span><i class="material-icons">
+        notification_important
+      </i>Alex Deo</span>
+    </span>
+  </mat-toolbar-row>
+  <mat-toolbar-row>
+    <span>
+        <mat-chip-list >
+            <mat-chip class="nav_bar">Home</mat-chip>
+            <mat-chip class="nav_bar">My Projects</mat-chip>
+            <mat-chip class="nav_bar">Revenue</mat-chip>
+            <mat-chip class="nav_bar">Risks</mat-chip>
+            <mat-chip class="nav_bar">Settings</mat-chip>
+        </mat-chip-list>
+    </span>
+  </mat-toolbar-row>
+</mat-toolbar>
+
+
+<div class="row swap">
+  <div class="col-8">
+      <mat-card class="card_dash">
+        <div class="row">
+          <div class="col-3">
+            <br>
+            <p>Power Generation</p>
+            <h3>345.45KW</h3>
+            <p>+42 since last week</p>
+            <br>
+            <mat-chip-list>
+                <mat-chip>3 HIGH IMPACT RISK</mat-chip>
+              </mat-chip-list>
+          </div>
+          <div class="col-9 chart-container">
+              <canvas id="componentsChart" width="500" height="185"></canvas>
+          </div>
+        </div>
+      </mat-card>
+  </div>
+  <div class="col-4 ">
+      <mat-card class="card_dash">
+        <div class="row">
+          <div class="col-5">
+<span>RANK</span>
+
+    <mat-chip-list>
+        <mat-chip class="nav_bar">  <i class="material-icons">
+            star_border
+            </i> 6</mat-chip>
+      </mat-chip-list>
+
+   <p>You're in top 40%</p> 
+          </div>
+          <div class="col-7">
+            <span>PLANTS WITH HIGH O/P</span>
+            <mat-chip-list>
+                <mat-chip class="nav_bar">   <i class="material-icons">
+                    code
+                    </i> 3</mat-chip>
+              </mat-chip-list>
+              <p>10 in this month</p>  
+            </div>
+        </div>
+        <hr>
+     <p> TOP CATEGORIES</p>  
+     <mat-chip-list>
+        <mat-chip>Power</mat-chip>
+        <mat-chip>Renewable</mat-chip>
+      </mat-chip-list>
+      </mat-card>
+  </div>
+</div>
+<div class="row">
+  <div class="col">
+<p>Suggested Projects</p>
+  </div>
+  <div class="col text-right">
+    <p>VIEW ALL PROJECTS<i class="material-icons">
+keyboard_arrow_right
+</i></p>
+    </div>
+</div>
+</div>
+
+<div class="carousel">
+  
+<carousel>
+    <mat-card class="card_style">
+    <slide *ngFor="let data of user_details">
+      <div class="row">
+        <div class="col-4">
+            <img [src]="data.thumbnailUrl" class="image" alt="">
+        </div>
+        <div class="col-4 text-right">
+          <h6>ID: {{data.id}}</h6>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col-12">
+            {{data.title}}
+          </div>
+        </div>
+      </div>
+    </slide>
+  </mat-card>
+  </carousel>
+</div>
+

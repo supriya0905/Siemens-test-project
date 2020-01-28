@@ -1,0 +1,54 @@
+.container{
+  box-sizing: border-box;
+  height: 420px;
+  background-color: #F1F3F5
+}
+.carousel{
+  display: flex;
+  justify-content: center;
+}
+
+.card_style{
+  height: 300px;
+  width: 470px;
+  padding: 20px;
+  background-color: #E7E9EB;
+  margin:20px;
+}
+
+.image{
+  border-radius: 88px;
+  height: 84px;
+}
+
+.tool_bar{
+  height: 200px;
+}
+
+.chart-container {
+  width: 100%;
+ 
+}
+
+.mat-card.card_dash {
+  padding: 8px;
+}
+
+.example-fill-remaining-space {
+  /* This fills the remaining space, by using flexbox. 
+     Every toolbar row uses a flexbox row layout. */
+  flex: 1 1 auto;
+}
+
+.mat-chip {
+  font-size: 12px;
+}
+
+.mat-chip.mat-standard-chip.nav_bar {
+  background-color:#3f51b5;
+  color:#f8f9fa;
+}
+
+.swap{
+  margin-top: -60px!important;
+}

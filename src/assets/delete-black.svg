@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="12px" viewBox="0 0 10 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>delete (1)</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Saved-List-v3" transform="translate(-573.000000, -123.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="delete-(1)" transform="translate(573.000000, 123.000000)">
+                <path d="M6.41675,0 L3.58325,0 L3.58325,1.48756818 L0.00340909091,1.48756818 L0.00340909091,3.96818182 L0.669727273,3.96818182 L1.41459091,11.6363636 L8.58540909,11.6363636 L9.33027273,3.96818182 L9.99659091,3.96818182 L9.99659091,1.48756818 L6.41675,1.48756818 L6.41675,0 Z M4.26506818,0.681818182 L5.73493182,0.681818182 L5.73493182,1.48756818 L4.26506818,1.48756818 L4.26506818,0.681818182 Z M7.96661364,10.9545455 L2.03338636,10.9545455 L1.35475,3.96818182 L8.64522727,3.96818182 L7.96661364,10.9545455 Z M9.31477273,2.16938636 L9.31477273,3.28636364 L0.685227273,3.28636364 L0.685227273,2.16938636 L9.31477273,2.16938636 Z" id="Shape"></path>
+                <rect id="Rectangle-path" x="4.65909091" y="5.29545455" width="1" height="4.33340909"></rect>
+                <polygon id="Shape" points="6.48238636 5.29545455 6.27934091 9.62879545 6.96188636 9.62879545 7.16495455 5.29545455"></polygon>
+                <polygon id="Shape" points="3.51761364 5.29545455 2.83504545 5.29545455 3.03809091 9.62879545 3.72065909 9.62879545"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
