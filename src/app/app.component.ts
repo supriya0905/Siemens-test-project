@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Chart } from 'chart.js';
 import { mockdata } from './data';
+import { UserInfo } from './UserInfo';
+
 
 @Component({
   selector: 'app-root',
@@ -8,11 +10,13 @@ import { mockdata } from './data';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent implements OnInit {
+  slideChangeMessage:string='';
   public canvas: any;
   public componentsChart = [];
   arr = [];
   num: number;
   public user_details = mockdata.DataList;
+  public user_info = UserInfo.Data;
 
   constructor() { }
 
@@ -39,6 +43,11 @@ export class AppComponent implements OnInit {
   ngOnInit() {
     this.componentsOnboarded();
   }
+
+  log(event: number) {
+    this.slideChangeMessage = `Slide has been switched: ${event}`;
+  }
+
 }
 
 

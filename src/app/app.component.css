@@ -7,18 +7,49 @@
   display: flex;
   justify-content: center;
 }
+.background{
+  /* height: 700px;
+  width: 700px; */
+  padding: 20px;
+  background-color: #F1F3F5
+}
+
+.mat-card.display{
+  height: 374px;
+  overflow: overlay;
+}
+
+
+.image_avatar{
+  height: 37px;
+  width: 50px;
+  border-radius: 22px;
+
+}
+
+.row_padding{
+  padding: 5px!important;
+}
 
 .card_style{
   height: 300px;
   width: 470px;
   padding: 20px;
-  background-color: #E7E9EB;
+  background-color: rgb(56, 54, 54);
+  color: white;
   margin:20px;
 }
 
 .image{
   border-radius: 88px;
   height: 84px;
+  display: block;
+}
+.imageUrl{
+  width: 265px;
+  height: 128px;
+  display: block;
+  margin-left: 112px;
 }
 
 .tool_bar{
@@ -31,18 +62,18 @@
 }
 
 .mat-card.card_dash {
-  padding: 8px;
+  padding: 22px;
+  font-size: 13px;
 }
 
 .example-fill-remaining-space {
-  /* This fills the remaining space, by using flexbox. 
-     Every toolbar row uses a flexbox row layout. */
   flex: 1 1 auto;
 }
 
 .mat-chip {
   font-size: 12px;
 }
+
 
 .mat-chip.mat-standard-chip.nav_bar {
   background-color:#3f51b5;
